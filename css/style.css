@@ -1,0 +1,169 @@
+@import url('reset.css');
+
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-100.otf') format('opentype');
+    font-weight: 100;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-300.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-500.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-700.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-900.otf') format('opentype');
+    font-weight: 900;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-100Italic.otf') format('opentype');
+    font-weight: 100;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-300Italic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans_500_italic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-700Italic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+@font-face {
+    font-family: 'MuseoSans';
+    src: url('../fonts/MuseoSans-900Italic.otf') format('opentype');
+    font-weight: 900;
+    font-style: italic;
+}
+
+
+* {
+    font-family: 'MuseoSans', sans-serif;
+}
+body {
+    font-weight: 700;
+    font-size: 64px;
+    margin: 0 120px 0 120px;
+    background-color: #EEEEEE;
+}
+.pages{
+    display: flex;
+    flex-direction: column;
+}
+.pages > div {
+    height: 1080px;
+    box-sizing: border-box;
+    position: relative;
+}
+.name{
+    font-size: 428px;
+    left:0;
+    bottom:0;
+    color: #303030;
+    position:absolute;
+    line-height: 74%;
+    letter-spacing: -0.11em;
+}
+.note{
+    margin-top: 50px;
+    font-size: 40px;
+    line-height: 110px;
+    position: absolute; 
+}
+.paperclip{
+    right:0;
+    bottom:0;
+    font-size:328px;
+    position:absolute;
+}
+#first{
+    transform: translateY(17%) translateX(7%) scaleX(-1);
+}
+#second{
+    transform: translateY(-10%) translateX(7%) scaleX(-1);
+}
+#third{
+    transform: translateY(-50%) translateX(7%) scaleX(-1);
+}
+.greeting{
+    font-size: 40px;
+    position: absolute;
+    margin-left: 1275px;
+    margin-top: 726px;
+}
+.square_brackets {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 600px;
+    position: relative;
+    white-space: pre;
+    height: 1em; /* под размеры скобок */
+    margin-left: -265px;
+    margin-top: 100px;
+}
+
+.bracket {
+    font-weight: 300;
+    flex-shrink: 0;
+    font-size: inherit;
+    line-height: 1;
+}
+
+.description {
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 64px;
+    margin: 0 0.15em; /* промежуток между скобкой и текстом */
+    white-space: normal;
+    text-align: center;
+    height: 100%;
+    width: 1200px;
+}
+.first_square{
+    position: absolute;
+    top: 2050px;
+    right: 0px;
+    height: 319px;
+    width: 525px;
+    background-color: #CFCFCD;
+}
+.second_square{
+    position: absolute;
+    top: 2070px;
+    left: 0px;
+    height: 319px;
+    width: 1600px;
+    background-color: #CFCFCD;
+}
+
+.A{
+    
+}
