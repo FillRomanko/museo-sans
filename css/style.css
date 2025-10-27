@@ -24,6 +24,48 @@ body {
 .pages { display: flex; flex-direction: column; }
 .pages > div { height: 1080px; position: relative; box-sizing: border-box; }
 
+/*Навигация*/
+a{
+    all: unset;
+    cursor: pointer;
+}
+html {
+    scroll-behavior: smooth;
+}
+.arrow {
+    position: fixed;
+    top: 70vh;
+    right: 40px;
+    z-index: 100;
+    height: 200px;
+    display: flex;
+    align-items: flex-end;
+}
+.arrow_up {
+    display: block;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    border-left: 4px solid #555;
+    border-top: 4px solid #555;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: transform 0.3s;
+    z-index: 2;
+}
+@keyframes arrow-bounce {
+    0%   { top: 0;   }
+    50%  { top: 10px;}
+    100% { top: 0;   }
+}
+.arrow_up:hover {
+    animation: arrow-bounce 1s ease infinite;
+}
+#func{
+    scroll-margin-top: -300px;
+}
+
+
 /*Текст*/
 .name {
     position: absolute;
@@ -35,6 +77,8 @@ body {
     position: absolute;
     margin-top: 50px;
     font-size: 40px; line-height: 110px;
+    display: flex;
+    gap: 16px;
 }
 .font_styles {
     display: flex;
@@ -66,6 +110,7 @@ body {
 .paperclip {
     position: absolute; right: 0; bottom: 0;
     font-size: 328px; font-weight: 500;
+    color: #333333;
 }
 #first { transform: translateY(17%) translateX(7%) scaleX(-1); }
 #second { transform: translateY(-10%) translateX(7%) scaleX(-1); }
@@ -79,12 +124,14 @@ body {
     font-size: 600px; position: relative;
     height: 1em; margin: 100px 0 0 -265px;
     white-space: pre;
+    color: #A7A7A7;
 }
 .bracket { font-weight: 300; flex-shrink: 0; }
 .description {
     display: flex; align-items: center; justify-content: center;
     font-weight: 700; font-size: 64px; text-align: center;
     width: 1200px; margin: 0 0.15em; white-space: normal;
+    color: #565656;
 }
 
 /*Межразметочные интервалы*/
@@ -193,7 +240,6 @@ body {
 .keyboard {
     left: -115px;
     position: absolute;
-    margin-top: 500px;
     display: flex;
     flex-direction: column;
     gap: 20px;
@@ -251,4 +297,35 @@ body {
     transform: scale(1.17);
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     transition: background 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s;
+}
+
+/*Футер*/
+.shift{
+    height: 300px;
+}
+.footer, footer{
+    position: absolute;
+    color: #d9d9d9;
+    width: 100%;
+    padding: 24px;
+    left: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #000000;
+}
+img{
+    position: absolute;
+    height: 390px;
+    width: auto;
+    display: block;
+    right: 0;
+}
+
+/*Цвета*/
+b1{
+    color: #333333;
+}
+b2{
+    color: #b3b3b3;
 }
