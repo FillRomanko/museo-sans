@@ -72,7 +72,7 @@ body {
 }
 .first_square { top: 2050px; right: 0; width: 525px; height: 319px; }
 .second_square { top: 2070px; left: 0; width: 1600px; height: 319px; }
-.third_square { top: 2950px; right: 0px; width: 471px; height: 379px; }
+.third_square { top: 2950px; right: 0; width: 471px; height: 379px; }
 .fourth_square { top: 3168px; left: 0; width: 1800px; height: 216px; }
 
 /*Демонстрация букв*/
@@ -163,4 +163,3 @@ body {
     rotate: 31deg;
     transform: translate(-54%, -113%);
 }
-
