@@ -299,7 +299,7 @@ html {
     box-shadow: 0 4px 20px rgba(0,0,0,0.15);
     transition: background 0.3s, transform 0.3s, box-shadow 0.3s, color 0.3s;
     
-    animation: grow-slowly 40000s linear infinite;
+    animation: grow-slowly 400000s linear infinite;
     animation-delay: 0.3s;
 }
 @keyframes grow-slowly {
