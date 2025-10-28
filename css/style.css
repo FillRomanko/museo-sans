@@ -9,7 +9,7 @@
 
 @font-face { font-family: 'MuseoSans'; src: url('../fonts/MuseoSans-100Italic.otf') format('opentype'); font-weight: 100; font-style: italic; }
 @font-face { font-family: 'MuseoSans'; src: url('../fonts/MuseoSans-300Italic.otf') format('opentype'); font-weight: 300; font-style: italic; }
-@font-face { font-family: 'MuseoSans'; src: url('../fonts/MuseoSans_500_italic.otf') format('opentype'); font-weight: 500; font-style: italic; }
+@font-face { font-family: 'MuseoSans'; src: url('../fonts/MuseoSans-500-italic.otf') format('opentype'); font-weight: 500; font-style: italic; }
 @font-face { font-family: 'MuseoSans'; src: url('../fonts/MuseoSans-700Italic.otf') format('opentype'); font-weight: 700; font-style: italic; }
 @font-face { font-family: 'MuseoSans'; src: url('../fonts/MuseoSans-900Italic.otf') format('opentype'); font-weight: 900; font-style: italic; }
 
